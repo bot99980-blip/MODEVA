@@ -1,9 +1,11 @@
-import "../styles/discount.scss"
+import style from "../styles/discount.module.scss";
 
 export const Discount = () => {
-    return (
-        <div className="discount">
-            <p>Discount 20% For New Member, <span> ONLY FOR TODAY</span>!!</p>
-        </div>
-    )
-}
+  return (
+    <div className={style.discount}>
+      <p>
+        Discount 20% For New Member, <span> ONLY FOR TODAY</span>!!
+      </p>
+    </div>
+  );
+};
