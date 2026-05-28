@@ -1,0 +1,39 @@
+@use "./index.scss" as vars;
+
+.about {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  &__text {
+    top: 50%;
+    left: 45vw;
+    position: absolute;
+    z-index: 999;
+    .under {
+      text-align: center;
+      color: vars.$font-white-color;
+      opacity: 0.3;
+      font-weight: 900;
+      font-family: "Unbounded";
+    }
+    .kurtukov {
+      font-size: 2em;
+      text-align: center;
+      color: vars.$font-white-color;
+      font-family: "Unbounded";
+    }
+  }
+  &__imgs {
+    filter: brightness(0.3);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+}
