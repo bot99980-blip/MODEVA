@@ -10,7 +10,7 @@
   background-position: 0% 43%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 984px;
+  height: 100vh;
   .header {
     display: flex;
     flex-flow: row;
@@ -79,6 +79,10 @@
     }
     &__logo {
       transition: all 0.3s ease;
+      svg {
+        width: 14vw;
+        height: 3vw;
+      }
     }
     &__logo:hover {
       transform: scale(1.1);
@@ -96,7 +100,7 @@
     }
     h2 {
       font-family: "Playfair Display";
-      font-size: 76px;
+      font-size: 4vw;
       font-weight: 100;
       color: vars.$font-white-color;
     }
@@ -119,6 +123,11 @@
         padding: 16px;
         h1 {
           font-family: "Playfair Display";
+        }
+        h2 {
+          font-family: "Lato";
+          font-size: 20px;
+          font-weight: 400;
         }
       }
       &__img {
@@ -143,6 +152,7 @@
         h2 {
           font-family: "Lato";
           font-size: 20px;
+          font-weight: 400;
         }
         a {
           font-size: 14px;

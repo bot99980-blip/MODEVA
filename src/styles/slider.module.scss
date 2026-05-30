@@ -1,0 +1,8 @@
+@use "./index.scss" as vars;
+.slider {
+  padding: 0 2.5vw;
+  &__title {
+    font-family: "Playfair Display";
+    font-size: 5vw;
+  }
+}
