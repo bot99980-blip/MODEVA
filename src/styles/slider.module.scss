@@ -1,8 +1,56 @@
 @use "./index.scss" as vars;
 .slider {
-  padding: 0 2.5vw;
+  padding: 1vw 2.5vw;
+  display: flex;
+  flex-flow: column;
+  gap: 3vw;
+  button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #8b4513;
+    font-family: "Lato";
+    font-size: 1vw;
+    color: vars.$font-white-color;
+    border: 0;
+    justify-content: center;
+    letter-spacing: 10%;
+    font-weight: 400;
+    padding: 1vw;
+    width: 10%;
+  }
   &__title {
     font-family: "Playfair Display";
-    font-size: 5vw;
+    font-size: 5.5vw;
+  }
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    gap: 0vw;
+    &__item {
+      display: flex;
+      flex-flow: column;
+      gap: 2%;
+      h1 {
+        font-family: "Lato";
+        font-size: 0.75vw;
+        font-weight: 400;
+      }
+      h2 {
+        font-size: 1.5vw;
+        font-weight: 400;
+        font-family: "Playfair Display";
+      }
+      h3 {
+        font-family: "Lato";
+        font-size: 0.75vw;
+        font-weight: 400;
+      }
+      &__img {
+        width: 85%;
+        height: 25vw;
+      }
+    }
   }
 }

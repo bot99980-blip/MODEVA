@@ -118,7 +118,7 @@ export const Wrapper = () => {
           </div>
           <div className={style.wrapper__items__item__text}>
             <h1>PRODICT NAME</h1>
-            <h2>$COST</h2>
+            <h2>IDR XXX</h2>
             <Link to="/">SHOP NOW</Link>
           </div>
         </div>
@@ -130,7 +130,7 @@ export const Wrapper = () => {
           </div>
           <div className={style.wrapper__items__item__text}>
             <h1>PRODICT NAME</h1>
-            <h2>$COST</h2>
+            <h2>IDR XXX</h2>
             <Link to="/">SHOP NOW</Link>
           </div>
         </div>
