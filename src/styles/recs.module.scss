@@ -1,0 +1,60 @@
+.recs__wrapper {
+  display: flex;
+  flex-flow: row;
+  gap: 2vw;
+  padding: 4vw 2.5vw;
+  width: 100%;
+  h1 {
+    font-weight: 400;
+    font-size: 2vw;
+    font-family: "Playfair Display";
+  }
+  h2 {
+    font-family: "Lato";
+    font-size: 0.85vw;
+    font-weight: 400;
+  }
+  svg {
+    height: 5vw;
+    width: 5vw;
+  }
+  &__item__horizontal {
+    width: 35vw;
+    background-color: #f2f2f2;
+    padding: 1.5vw;
+    &__container {
+      h1 {
+        text-align: center;
+      }
+      display: flex;
+      flex-flow: column;
+      gap: 1vw;
+      justify-items: top;
+      align-items: center;
+      height: 100%;
+      padding: 2vw;
+      background-color: #ffffff;
+    }
+  }
+  &__item__vertical {
+    display: flex;
+    flex-flow: column;
+    gap: 2vw;
+    &__container {
+      background-color: #f2f2f2;
+      padding: 1.5vw;
+      &__content {
+        padding: 2vw;
+        display: flex;
+        flex-flow: row;
+        gap: 1vw;
+        background-color: #ffffff;
+        span {
+          display: flex;
+          flex-flow: column;
+          gap: 0.5vw;
+        }
+      }
+    }
+  }
+}

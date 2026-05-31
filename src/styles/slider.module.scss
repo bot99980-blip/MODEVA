@@ -17,7 +17,7 @@
     letter-spacing: 10%;
     font-weight: 400;
     padding: 1vw;
-    width: 10%;
+    width: 10vw;
   }
   &__title {
     font-family: "Playfair Display";
@@ -27,28 +27,33 @@
     width: 100%;
     display: flex;
     flex-flow: row;
-    gap: 0vw;
+    gap: 2vw;
     &__item {
       display: flex;
       flex-flow: column;
       gap: 2%;
       h1 {
+        color: vars.$font-black-color;
+        text-decoration: none;
         font-family: "Lato";
         font-size: 0.75vw;
         font-weight: 400;
       }
       h2 {
+        color: vars.$font-black-color;
+        text-decoration: none;
         font-size: 1.5vw;
         font-weight: 400;
         font-family: "Playfair Display";
       }
       h3 {
+        color: vars.$font-black-color;
+        text-decoration: none;
         font-family: "Lato";
         font-size: 0.75vw;
         font-weight: 400;
       }
       &__img {
-        width: 85%;
         height: 25vw;
       }
     }

@@ -2,6 +2,7 @@ import { Discount } from "../components/Discount";
 import { Wrapper } from "../components/Wrapper";
 import { Piano } from "../components/Piano";
 import { Slider } from "../components/Slider";
+import { Recs } from "../components/Recs";
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
         img="https://s10.iimage.su/s/31/gMuSXrAxcgzdqf2LahzHEEmGfhpNnrWkiJ8Rr2f5W.png"
         title="BEST OUTFIT FOR YOUR HAPPINESS"
       />
+      <Recs />
     </main>
   );
 };

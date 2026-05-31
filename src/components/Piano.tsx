@@ -10,21 +10,21 @@ export const Piano = () => {
       <div className={style.piano__container}>
         <div className={style.piano__container__vertical}>
           <Link
-            to="/"
+            to="/d"
             className={style.piano__container__vertical__item__first}
           >
             <p>FORMAL WOMEN</p>
             <img className={style.piano__container__img} src={WOMEN} alt="" />
           </Link>
           <Link
-            to="/"
+            to="/d"
             className={style.piano__container__vertical__item__second}
           >
             <p>FORMAL MEN</p>
             <img className={style.piano__container__img} src={MEN} alt="" />
           </Link>
         </div>
-        <Link to="/" className={style.piano__container__horizont}>
+        <Link to="/d" className={style.piano__container__horizont}>
           <p>CASUAL STYLE</p>
           <img className={style.piano__container__img} src={CAS} alt="" />
         </Link>
