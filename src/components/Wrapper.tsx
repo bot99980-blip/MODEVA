@@ -59,7 +59,7 @@ export const Wrapper = () => {
             </svg>
             Search
           </Link>
-          <Link to="/profile">
+          <Link to="/signin">
             <svg
               width="17"
               height="21"
