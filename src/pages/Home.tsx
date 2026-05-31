@@ -3,6 +3,7 @@ import { Wrapper } from "../components/Wrapper";
 import { Piano } from "../components/Piano";
 import { Slider } from "../components/Slider";
 import { Recs } from "../components/Recs";
+import Video from "../assets/602947.mp4";
 
 export const Home = () => {
   return (
@@ -19,6 +20,9 @@ export const Home = () => {
         title="BEST OUTFIT FOR YOUR HAPPINESS"
       />
       <Recs />
+      <video className="bg" loop autoPlay muted width="100%">
+        <source src={Video} type="video/mp4" />
+      </video>
     </main>
   );
 };
