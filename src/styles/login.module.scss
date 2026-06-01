@@ -9,8 +9,19 @@
     width: 50%;
     padding: 4vw;
     display: flex;
-    gap: 2vw;
+    gap: 2.5vw;
     flex-flow: column;
+    span {
+      display: flex;
+      gap: 10px;
+      color: vars.$font-black-color;
+      font-size: 2vw;
+      font-weight: lighter;
+      font-family: "Playfair Display";
+      a {
+        color: vars.$font-black-color;
+      }
+    }
     button {
       display: flex;
       gap: 10px;
@@ -31,6 +42,22 @@
       flex-flow: column;
       gap: 0.5vw;
       &__annots {
+        display: flex;
+        flex-flow: column;
+        gap: 0.25vw;
+        h2 {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-family: "Lato";
+          font-size: 0.75vw;
+          font-weight: 400;
+          svg {
+            height: 15px;
+            width: 15px;
+            filter: brightness(0.5) saturate(0);
+          }
+        }
       }
       label {
         color: vars.$font-black-color;

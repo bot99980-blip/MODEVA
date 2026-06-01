@@ -2,7 +2,7 @@ import style from "../styles/login.module.scss";
 import { Link } from "react-router-dom";
 import img from "../assets/sing.png";
 
-export const Signin = () => {
+export const Signup = () => {
   return (
     <div className={style.signin}>
       <div className={style.signin__img}>
@@ -27,7 +27,7 @@ export const Signin = () => {
         <img src={img} alt="" />
       </div>
       <form className={style.signin__form}>
-        <p>SIGN IN</p>
+        <p>SING UP</p>
         <div className={style.signin__form__field}>
           <label htmlFor="email">EMAIL</label>
           <input
@@ -46,11 +46,81 @@ export const Signin = () => {
             required
             minLength={6}
           />
+          <div className={style.signin__form__field__annots}>
+            <h2>
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 13 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 10.0899 10.0899 13 6.5 13C2.91015 13 0 10.0899 0 6.5ZM8.90687 5.29062C9.06737 5.06591 9.01533 4.75364 8.79062 4.59313C8.56591 4.43263 8.25364 4.48467 8.09313 4.70938L5.9362 7.72909L4.85355 6.64645C4.65829 6.45118 4.34171 6.45118 4.14645 6.64645C3.95118 6.84171 3.95118 7.15829 4.14645 7.35355L5.64645 8.85355C5.75037 8.95748 5.89476 9.01042 6.04124 8.9983C6.18772 8.98617 6.32144 8.91022 6.40687 8.79062L8.90687 5.29062Z"
+                  fill="#0CFF0C"
+                />
+              </svg>
+              Minimum 8 characters
+            </h2>
+            <h2>
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 13 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 10.0899 10.0899 13 6.5 13C2.91015 13 0 10.0899 0 6.5ZM8.90687 5.29062C9.06737 5.06591 9.01533 4.75364 8.79062 4.59313C8.56591 4.43263 8.25364 4.48467 8.09313 4.70938L5.9362 7.72909L4.85355 6.64645C4.65829 6.45118 4.34171 6.45118 4.14645 6.64645C3.95118 6.84171 3.95118 7.15829 4.14645 7.35355L5.64645 8.85355C5.75037 8.95748 5.89476 9.01042 6.04124 8.9983C6.18772 8.98617 6.32144 8.91022 6.40687 8.79062L8.90687 5.29062Z"
+                  fill="#0CFF0C"
+                />
+              </svg>
+              Must contain at least 1 number
+            </h2>
+            <h2>
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 13 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 10.0899 10.0899 13 6.5 13C2.91015 13 0 10.0899 0 6.5ZM8.90687 5.29062C9.06737 5.06591 9.01533 4.75364 8.79062 4.59313C8.56591 4.43263 8.25364 4.48467 8.09313 4.70938L5.9362 7.72909L4.85355 6.64645C4.65829 6.45118 4.34171 6.45118 4.14645 6.64645C3.95118 6.84171 3.95118 7.15829 4.14645 7.35355L5.64645 8.85355C5.75037 8.95748 5.89476 9.01042 6.04124 8.9983C6.18772 8.98617 6.32144 8.91022 6.40687 8.79062L8.90687 5.29062Z"
+                  fill="#0CFF0C"
+                />
+              </svg>
+              Must contain at least 1 capital case and 1 small case
+            </h2>
+            <h2>
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 13 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 10.0899 10.0899 13 6.5 13C2.91015 13 0 10.0899 0 6.5ZM8.90687 5.29062C9.06737 5.06591 9.01533 4.75364 8.79062 4.59313C8.56591 4.43263 8.25364 4.48467 8.09313 4.70938L5.9362 7.72909L4.85355 6.64645C4.65829 6.45118 4.34171 6.45118 4.14645 6.64645C3.95118 6.84171 3.95118 7.15829 4.14645 7.35355L5.64645 8.85355C5.75037 8.95748 5.89476 9.01042 6.04124 8.9983C6.18772 8.98617 6.32144 8.91022 6.40687 8.79062L8.90687 5.29062Z"
+                  fill="#0CFF0C"
+                />
+              </svg>
+              Must contain at least 1 symbol
+            </h2>
+          </div>
         </div>
-        <button type="submit">SIGN IN</button>
+        <button type="submit">SIGN UP</button>
         <span>
-          <article>Don’t have account?</article>
-          <Link to="/signup">Register here</Link>
+          <article>Already have account?</article>
+          <Link to="/signin">Click here</Link>
         </span>
       </form>
     </div>

@@ -1,0 +1,79 @@
+@use "./index.scss" as vars;
+
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  &__nav {
+    &__links {
+      font-size: 18px;
+      text-decoration: none;
+      color: vars.$font-white-color;
+      font-family: "Lato";
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    ::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: vars.$font-black-color;
+      transition: width 0.3s ease;
+    }
+    :hover {
+      color: vars.$font-black-color;
+    }
+    :hover::after {
+      width: 100%;
+    }
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 4em;
+  }
+  &__search {
+    align-items: center;
+    display: flex;
+    gap: 1.5em;
+    svg {
+      height: 24px;
+      width: 24px;
+    }
+    &__btn {
+      transition: all 0.3s ease;
+      align-items: center;
+      display: flex;
+      gap: 0.5em;
+      width: 15em;
+      padding: 1em;
+      background-color: vars.$font-white-color;
+      font-size: 14px;
+      text-decoration: none;
+      color: vars.$font-black-color;
+      font-family: "Lato";
+      svg {
+        height: 16px;
+        width: 16px;
+      }
+    }
+    :hover {
+      color: vars.$font-white-color;
+      background-color: vars.$font-black-color;
+    }
+  }
+  &__logo {
+    transition: all 0.3s ease;
+    svg {
+      width: 14vw;
+      height: 3vw;
+    }
+  }
+  &__logo:hover {
+    transform: scale(1.1);
+  }
+}
