@@ -24,9 +24,9 @@ export const Recs = () => {
           </svg>
           <h1>100% Satisfaction Guaranteed </h1>
           <h2>
-            Lorem ipsum dolor sit amet consectetur. Suspendisse laoreet
-            scelerisque morbi vulputate. Quisque bibendum eget id diam elementum
-            fringilla duis.
+            We stand behind every product we make. If you’re not completely
+            satisfied, simply let us know within 30 days for a full refund or
+            replacement — no questions asked.
           </h2>
         </div>
       </div>
@@ -53,9 +53,9 @@ export const Recs = () => {
             <span>
               <h1>24/7 Online Service</h1>
               <h2>
-                Lorem ipsum dolor sit amet consectetur. Suspendisse laoreet
-                scelerisque morbi vulputate. Quisque bibendum eget id diam
-                elementum fringilla duis.
+                Our support team is always here for you, day or night. Whether
+                you need help with an order or have a quick question, we’re just
+                a click away at any hour.
               </h2>
             </span>
           </div>
@@ -86,9 +86,9 @@ export const Recs = () => {
             <span>
               <h1>Fast Delivery</h1>
               <h2>
-                Lorem ipsum dolor sit amet consectetur. Suspendisse laoreet
-                scelerisque morbi vulputate. Quisque bibendum eget id diam
-                elementum fringilla duis.
+                We know you want your order quickly. That’s why we process and
+                ship within 24 hours. Most orders arrive in just 2–3 business
+                days, anywhere you are.
               </h2>
             </span>
           </div>
@@ -117,9 +117,9 @@ export const Recs = () => {
           </svg>
           <h1>Payment With Secure System</h1>
           <h2>
-            Lorem ipsum dolor sit amet consectetur. Suspendisse laoreet
-            scelerisque morbi vulputate. Quisque bibendum eget id diam elementum
-            fringilla duis.{" "}
+            Your security is our top priority. All transactions are fully
+            encrypted and processed through trusted payment gateways to protect
+            your personal data.
           </h2>
         </div>
       </div>

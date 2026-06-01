@@ -2,10 +2,10 @@ import style from "../styles/login.module.scss";
 import { Link } from "react-router-dom";
 import img from "../assets/sing.png";
 
-export const Login = () => {
+export const Signin = () => {
   return (
-    <div className={style.login}>
-      <div className={style.login__img}>
+    <div className={style.signin}>
+      <div className={style.signin__img}>
         <Link to="/">
           <svg
             width="200"
@@ -26,7 +26,36 @@ export const Login = () => {
         </Link>
         <img src={img} alt="" />
       </div>
-      <div className={style.login__form}></div>
+      <form className={style.signin__form}>
+        <p>SIGN IN</p>
+        <div className={style.signin__form__field}>
+          <label htmlFor="email">EMAIL</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="example@mail.com"
+            required
+          />
+        </div>
+        <div className={style.signin__form__field}>
+          <label htmlFor="email">PASSWORD</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="*******"
+            required
+            minLength={6}
+          />
+          <div className={style.signin__form__field__annots}>
+            <h2>Minimum 8 characters </h2>
+          </div>
+        </div>
+        <button type="submit">SIGN IN</button>
+        <span>
+          <h1>Don’t have account?</h1>
+          <Link to="/">Register here</Link>
+        </span>
+      </form>
     </div>
   );
 };
