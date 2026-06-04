@@ -36,12 +36,26 @@ export const Footer = () => {
         <div className={style.footer__container__links}>
           <div className={style.footer__container__links__item}>
             <p>Menu</p>
-            <Link to="/">Sale</Link>
-            <Link to="/">New Arrivals</Link>
-            <Link to="/">Formal Men</Link>
-            <Link to="/">Formal Woman</Link>
-            <Link to="/">Casual Men</Link>
-            <Link to="/">Casual Woman</Link>
+            <Link to="/d">Sale</Link>
+            <Link to="/d">New Arrivals</Link>
+            <Link to="/d">Formal Men</Link>
+            <Link to="/d">Formal Woman</Link>
+            <Link to="/d">Casual Men</Link>
+            <Link to="/d">Casual Woman</Link>
+          </div>
+          <div className={style.footer__container__links__item}>
+            <p>Get Help</p>
+            <Link to="/d">FAQ</Link>
+            <Link to="/d">Customer Service</Link>
+            <Link to="/d">Refund and Return</Link>
+            <Link to="/d">Terms and Conditions</Link>
+            <Link to="/d">Shipping</Link>
+          </div>
+          <div className={style.footer__container__links__item}>
+            <p>Account</p>
+            <Link to="/d">My Account</Link>
+            <Link to="/d">My Orders</Link>
+            <Link to="/d">Vouchers and Discounts</Link>
           </div>
         </div>
       </div>
