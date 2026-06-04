@@ -11,6 +11,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  @media (max-width: 1200px) {
+    height: 70vh;
+  }
   &__text {
     position: absolute;
     top: 30%;
@@ -32,26 +35,36 @@
   }
   &__items {
     position: absolute;
-    left: 74%;
+    left: 72%;
     display: flex;
     flex-flow: column;
     gap: 2em;
     bottom: 5%;
+    @media (max-width: 700px) {
+      left: 65%;
+    }
     &__item__reverse {
+      height: 12vw;
+      width: 25vw;
       background-color: vars.$font-white-color;
       display: flex;
       flex-flow: row-reverse;
+      @media (max-width: 700px) {
+        height: 17vw;
+        width: 30vw;
+      }
       &__text {
         display: flex;
         flex-flow: column;
         gap: 25%;
         padding: 16px;
         h1 {
+          font-size: 2em;
           font-family: "Playfair Display";
         }
         h2 {
           font-family: "Lato";
-          font-size: 20px;
+          font-size: 2em;
           font-weight: 400;
         }
       }
@@ -63,24 +76,30 @@
       }
     }
     &__item {
+      height: 12vw;
+      width: 25vw;
       background-color: vars.$font-white-color;
       display: flex;
+      @media (max-width: 700px) {
+        height: 17vw;
+        width: 30vw;
+      }
       &__text {
         display: flex;
         flex-flow: column;
         gap: 25%;
-        padding: 16px;
+        padding: 1vw;
         h1 {
           font-family: "Playfair Display";
-          font-size: 26px;
+          font-size: 1.25vw;
         }
         h2 {
           font-family: "Lato";
-          font-size: 20px;
+          font-size: 1vw;
           font-weight: 400;
         }
         a {
-          font-size: 14px;
+          font-size: 0.9vw;
           font-family: "Lato";
           color: vars.$font-black-color;
         }

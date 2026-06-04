@@ -5,6 +5,9 @@
   justify-content: center;
   background-color: vars.$accent-color;
   padding: 0.7em;
+  @media (max-width: 1440px) {
+    display: none;
+  }
   p {
     font-family: "Lato";
     font-weight: 400;
