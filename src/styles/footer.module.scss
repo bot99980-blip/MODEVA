@@ -1,4 +1,13 @@
 .footer {
   background-color: #8b4513;
+  padding: 4vw 2.5vw;
   height: 40vw;
+  align-items: flex-end;
+  display: flex;
+  a {
+    svg {
+      height: 15vw;
+      width: 15vw;
+    }
+  }
 }
