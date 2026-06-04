@@ -4,6 +4,7 @@ import { NotFound } from "./pages/NotFound";
 import { About } from "./pages/About";
 import { Signin } from "./pages/Signin";
 import { Signup } from "./pages/Signup";
+import { Product } from "./pages/Product";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/product" element={<Product />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

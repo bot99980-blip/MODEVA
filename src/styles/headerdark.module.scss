@@ -1,0 +1,84 @@
+@use "./index.scss" as vars;
+
+.header {
+  padding: 2vw;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  @media (max-width: 700px) {
+    display: none;
+  }
+  &__nav {
+    &__links__dark {
+      font-size: 1vw;
+      text-decoration: none;
+      color: vars.$font-black-color;
+      font-family: "Lato";
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    ::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: vars.$font-black-color;
+      transition: width 0.3s ease;
+    }
+    :hover {
+      color: vars.$font-black-color;
+    }
+    :hover::after {
+      width: 100%;
+    }
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 5vw;
+  }
+  &__search {
+    align-items: center;
+    display: flex;
+    gap: 1.5vw;
+    svg {
+      height: 1.5vw;
+      width: 1.5vw;
+    }
+    &__btn__dark {
+      transition: all 0.3s ease;
+      align-items: center;
+      display: flex;
+      gap: 0.5vw;
+      width: 15vw;
+      padding: 1em;
+      background-color: vars.$font-white-color;
+      font-size: 0.85vw;
+      text-decoration: none;
+      color: vars.$font-black-color;
+      font-family: "Lato";
+      border: 1px black solid;
+      svg {
+        height: 1vw;
+        width: 1vw;
+      }
+    }
+    :hover {
+      color: vars.$font-white-color;
+      background-color: vars.$font-black-color;
+    }
+  }
+  &__logo {
+    transition: all 0.3s ease;
+    svg {
+      width: 14vw;
+      height: 3vw;
+    }
+  }
+  &__logo:hover {
+    transform: scale(1.1);
+  }
+}

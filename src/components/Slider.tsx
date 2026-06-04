@@ -12,8 +12,7 @@ export const Slider = ({ title, img }: Props) => {
       <div className={style.slider__title}>{title}</div>
       <div className={style.slider__wrapper}>
         <div className={style.slider__wrapper__item}>
-          <Link to="/d">
-            {" "}
+          <Link to="/product">
             <img
               className={style.slider__wrapper__item__img}
               src={img}
@@ -26,7 +25,7 @@ export const Slider = ({ title, img }: Props) => {
           <h3>IDR XXX</h3>
         </div>
         <div className={style.slider__wrapper__item}>
-          <Link to="/d">
+          <Link to="/product">
             <img
               className={style.slider__wrapper__item__img}
               src={img}
