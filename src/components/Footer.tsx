@@ -60,10 +60,10 @@ export const Footer = () => {
         </div>
       </div>
       <article className={style.footer__container__rights}>
-        <h1>
-          All rights reserved. <span className="kurtukov">KURTUKOV</span>
-        </h1>
-        <h2>Copyright 2026 By Modeva Fashion</h2>
+        <h1>All rights reserved.</h1>
+        <h2>
+          Copyright 2026 By <span className="kurtukov">KURTUKOV</span>
+        </h2>
       </article>
     </footer>
   );

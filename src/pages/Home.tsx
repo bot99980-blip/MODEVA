@@ -25,7 +25,6 @@ export const Home = () => {
       <video className="bg" loop autoPlay muted width="100%">
         <source src={Video} type="video/mp4" />
       </video>
-
       <Comments />
       <div className="spacer"></div>
       <Footer />
