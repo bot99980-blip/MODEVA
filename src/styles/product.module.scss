@@ -1,6 +1,6 @@
 .product {
   &__container {
-    height: 60vw;
+    height: auto;
     padding: 2.5vw 0vw;
     display: flex;
     &__imgs {
@@ -13,6 +13,7 @@
         width: 100%;
         gap: 1vw;
         &__item {
+          font-size: 1vw;
           height: 7vw;
           background-color: #9e9e9e;
         }
