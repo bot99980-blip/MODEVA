@@ -37,7 +37,7 @@ export const Slider = ({ title, img }: Props) => {
           <h3>IDR XXX</h3>
         </div>
       </div>
-      <Link to="/d">
+      <Link className={style.linkbtn} to="/d">
         <button>
           SEE MORE
           <svg
