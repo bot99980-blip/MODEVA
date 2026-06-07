@@ -82,7 +82,7 @@ export const NestedDropdown = ({
         className={style.nestedDropdown__header}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span>{title}</span>
+        <span className={style.nestedDropdown__header__span}>{title}</span>
       </div>
 
       {isOpen && (
@@ -94,6 +94,12 @@ export const NestedDropdown = ({
                 onClick={() => handleCategoryToggle(category.name)}
               >
                 <span>{category.name}</span>
+                <svg
+                  className={`${style.nestedDropdown__arrow} ${isOpen ? style.open : ""}`}
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M7 10l5 5 5-5z" />
+                </svg>
               </div>
 
               {openSubDropdown === category.name && (

@@ -44,8 +44,6 @@ export const Filter = () => {
 
   return (
     <aside className={style.filters}>
-      <h3 className={style.filters__title}>CATEGORY</h3>
-
       <NestedDropdown
         title="Category"
         categories={[

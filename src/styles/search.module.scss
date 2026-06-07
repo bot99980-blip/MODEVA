@@ -14,7 +14,6 @@
     width: 100%;
   }
 
-  // Search Input Section
   &__inputSection {
     margin-bottom: 4vw;
   }
@@ -82,7 +81,6 @@
     }
   }
 
-  // Sections
   &__section {
     margin-bottom: 3vw;
   }
@@ -109,7 +107,6 @@
     }
   }
 
-  // Recent Searches
   &__recentList {
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +161,6 @@
     }
   }
 
-  // Categories
   &__categories {
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +188,6 @@
     }
   }
 
-  // Results Count
   &__resultsCount {
     font-family: "Lato", sans-serif;
     font-size: 0.8vw;
@@ -203,7 +198,6 @@
     }
   }
 
-  // Results Grid
   &__results {
     margin-top: 2vw;
   }
@@ -301,7 +295,6 @@
     }
   }
 
-  // No Results
   &__noResults {
     text-align: center;
     padding: 4vw 2vw;

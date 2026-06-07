@@ -72,6 +72,12 @@ export const Dropdown = ({
         }}
       >
         <span>{title}</span>
+        <svg
+          className={`${style.nestedDropdown__arrow} ${isOpen ? style.open : ""}`}
+          viewBox="0 0 24 24"
+        >
+          <path d="M7 10l5 5 5-5z" />
+        </svg>
       </div>
 
       {isOpen && !disabled && (

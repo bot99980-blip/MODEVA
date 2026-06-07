@@ -1,0 +1,16 @@
+.catalog {
+  &__container {
+    padding: 2vw;
+    display: flex;
+    flex-flow: column;
+    gap: 1vw;
+    p {
+      font-family: "Playfair Display";
+      font-size: 5vw;
+    }
+    &__wrapper {
+      display: flex;
+      gap: 1.5vw;
+    }
+  }
+}
