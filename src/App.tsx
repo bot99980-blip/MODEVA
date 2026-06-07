@@ -6,14 +6,18 @@ import { Signin } from "./pages/Signin";
 import { Signup } from "./pages/Signup";
 import { Product } from "./pages/Product";
 import { Cart } from "./pages/Cart";
+import { Catalog } from "./pages/Catalog";
+import { Search } from "./pages/Search";
 
 export const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/search" element={<Search />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/about" element={<About />} />
+        <Route path="/catalog" element={<Catalog />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/product" element={<Product />} />

@@ -1,6 +1,7 @@
 import style from "../styles/cart.module.scss";
 import { Headerdark } from "../components/Headerdark";
 import { Footer } from "../components/Footer";
+import { Filter } from "../components/Filter";
 import img from "../assets/image2.png";
 
 export const Cart = () => {
@@ -113,6 +114,7 @@ export const Cart = () => {
         </div>
       </div>
       <Footer />
+      <Filter></Filter>
     </div>
   );
 };
