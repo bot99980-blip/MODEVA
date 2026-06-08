@@ -11,6 +11,50 @@
     &__wrapper {
       display: flex;
       gap: 1.5vw;
+      &__products {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        gap: 2vw;
+        &__item {
+          display: flex;
+          flex-flow: column;
+          gap: 0.5vw;
+          min-height: 37vw;
+          max-height: auto;
+          width: 23vw;
+          &__img {
+            width: 100%;
+            img {
+              width: 100%;
+              object-fit: cover;
+            }
+          }
+          &__text {
+            display: flex;
+            flex-flow: column;
+            gap: 0.5vw;
+            h1 {
+              font-family: "Lato";
+              font-size: 0.75vw;
+              font-weight: 400;
+            }
+            h2 {
+              word-wrap: break-word;
+              overflow-wrap: break-word;
+              white-space: normal;
+              font-size: 2vw;
+              font-weight: 100;
+              font-family: "Playfair Display";
+            }
+            h3 {
+              font-family: "Lato";
+              font-size: 0.9vw;
+              font-weight: 400;
+            }
+          }
+        }
+      }
     }
   }
 }
