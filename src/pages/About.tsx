@@ -14,7 +14,6 @@ export const About = () => {
       </div>
       <div className={style.about__text}>
         <p className={style.kurtukov}>KURTUKOV</p>
-        <p className={style.under}>я заебался это делать</p>
       </div>
     </Link>
   );
